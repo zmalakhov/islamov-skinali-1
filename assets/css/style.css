@@ -249,8 +249,8 @@ body {
 
 @media (max-width: 991px) {
   .hero {
-    background-size: cover;
-    background-position: top left 30%;
+    background-size: 100%;
+    background-position: top left;
     padding-top: 30%;
     padding-bottom: 40%;
   }
