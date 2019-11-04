@@ -3,3 +3,38 @@
   &-block
     background-color: #ffffff
     padding: 80px
+  &__title
+    margin-bottom: 31px
+    font-size: 25px
+    text-transform: uppercase
+    +bold
+  &__subtitle
+    display: block
+    margin-bottom: 48px
+    font-size: 21px
+.form
+  &__row
+    display: flex
+    justify-content: space-between
+    align-items: center
+    //max-width: 900px
+    width: 100%
+    margin-bottom: 25px
+    &:last-child
+      margin-bottom: 0
+  &__label
+    display: block
+    font-size: 17px
+    margin-bottom: 15px
+  &__group
+    flex-basis: 33.33%
+  &__input
+    width: 100%
+    border-right-width: 0
+    &:last-child
+      border-right-width: 1px
+  &__button
+    height: 80px
+    width: 100%
+  &__checkbox
+    display: flex

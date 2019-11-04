@@ -19,6 +19,24 @@ body
   +bold
 .bg-secondary
   background-color: $bg-secondary
+.input
+  height: 80px
+  border: 1px solid #dddddd
+.checkbox
+  display: none
+  &:checked + label:before
+    background-color: $primary
+  &-label
+    display: flex
+    flex-direction: row
+    align-items: center
+    margin-right: 40px
+    &:before
+      content: ''
+      width: 30px
+      height: 30px
+      border: 1px solid #dddddd
+      margin-right: 20px
 
 @media (max-width: 576px)
   .button-o
