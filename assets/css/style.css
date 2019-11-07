@@ -435,6 +435,10 @@ body {
   }
 }
 
+.features {
+  padding-bottom: 0;
+}
+
 .features-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -469,5 +473,101 @@ body {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     margin-bottom: 50px;
+  }
+}
+
+.catalog {
+  padding-top: 0;
+}
+
+.catalog-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.catalog-card-1 {
+  background: #89a9eb url("../img/catalog/1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.catalog-card-2 {
+  background: #89a9eb url("../img/catalog/2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.catalog-card-3 {
+  background: #89a9eb url("../img/catalog/3.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.catalog-card-4 {
+  background: #89a9eb url("../img/catalog/4.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.catalog-card-5 {
+  background: #89a9eb url("../img/catalog/5.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.catalog-card-6 {
+  background: #89a9eb url("../img/catalog/6.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.catalog-card-7 {
+  background: #89a9eb url("../img/catalog/7.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.catalog-card-8 {
+  background: #89a9eb url("../img/catalog/8.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.catalog-card {
+  -ms-flex-preferred-size: 46%;
+  flex-basis: 46%;
+  padding-top: 15px;
+  padding-left: 10px;
+  margin: 15px;
+}
+
+.catalog-card__tag {
+  background-color: rgba(80, 127, 225, 0.6);
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+.catalog-card__buttons {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.catalog-card__buttons .fitting-button,
+.catalog-card__buttons .add-button {
+  border: none;
+  padding: 13px;
+}
+
+@media (max-width: 768px) {
+  .catalog h2 {
+    margin-bottom: 40px;
+  }
+
+  .catalog-card {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
   }
 }
