@@ -692,3 +692,28 @@ body {
     flex-basis: 100%;
   }
 }
+
+.price-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.price-card {
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.price-card__text {
+  padding: 20px;
+}
+
+.price-card__title {
+  margin: 0;
+  font-size: 15px;
+}
