@@ -979,3 +979,31 @@ body {
     text-align: center;
   }
 }
+
+.contacts-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.contacts-block__item {
+  text-align: center;
+}
+
+.contacts-block__image {
+  width: 40px;
+  margin-bottom: 25px;
+}
+
+.contacts-block__text {
+  font-size: 16px;
+}
+
+.contacts-block__link {
+  text-decoration: none;
+  color: #262626;
+}
