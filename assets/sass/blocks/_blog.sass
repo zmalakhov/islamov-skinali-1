@@ -6,6 +6,7 @@
     display: flex
     justify-content: space-between
     align-items: center
+    flex-wrap: wrap
 
     &__title
       font-size: 24px
@@ -32,8 +33,9 @@
     &:last-child
       margin-right: 0
     figure
-      width: 98%
-      margin: 0
+      width: 100%
+      margin: 10px
+
       text-align: center
       figcaption
 
@@ -54,7 +56,18 @@
     &-card
       flex-basis: 50%
 
-@media (max-width: 768px)
+@media (max-width: 586px)
+  .blog
+    &-wrap
+      padding: 10px
+    &-card
+      flex-basis: 50%
+      //margin: 10px
+      figure
+        width: 100%
+        padding: 10px
+
+@media (max-width: 500px)
   .blog
     &-card
       flex-basis: 100%
