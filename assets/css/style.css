@@ -822,6 +822,10 @@ body {
   }
 }
 
+.steps {
+  background-color: #f1f1f1;
+}
+
 .steps-block {
   display: -webkit-box;
   display: -ms-flexbox;
