@@ -17,3 +17,7 @@ spikmi.com
 библиотека для эфекта "до и после"
 https://zurb.com/playground/twentytwenty
 
+================
+слайдер slick
+https://kenwheeler.github.io/slick/
+
