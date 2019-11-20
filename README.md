@@ -12,3 +12,8 @@ https://webfonts.pro/
 spikmi.com
 
 его легко подключить к сайту и он бесплатный
+
+==================
+библиотека для эфекта "до и после"
+https://zurb.com/playground/twentytwenty
+
