@@ -1,4 +1,18 @@
 .before
   &-slider
-    max-width: 640px
-    margin: auto
+    &-wrap
+      max-width: 640px
+      margin: auto
+      position: relative
+    &-arrows
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      width: 100%
+      display: flex
+      justify-content: space-between
+.arrow
+  &-left
+    transform: translateX(-100%)
+  &-right
+    transform: translateX(100%)
