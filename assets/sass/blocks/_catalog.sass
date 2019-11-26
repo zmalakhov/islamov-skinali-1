@@ -45,7 +45,11 @@
     padding-left: 10px
     margin: 15px
     box-shadow: 7px 5px 21px rgba(0, 0, 0, 0.2)
-
+    overflow-y: hidden
+    &:hover
+      .catalog-card__buttons
+        transform: translateY(0)
+        opacity: 1
     &__tag
       background-color: rgba(80, 127, 225, 0.6)
       color: #ffffff
@@ -55,7 +59,9 @@
       margin-top: 50px
       display: flex
       justify-content: flex-end
-
+      opacity: 0
+      transition: 0.2s
+      transform: translateY(100%)
       .fitting-button, .add-button
         border: none
         padding: 13px

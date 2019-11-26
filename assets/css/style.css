@@ -680,6 +680,13 @@ body {
   margin: 15px;
   -webkit-box-shadow: 7px 5px 21px rgba(0, 0, 0, 0.2);
   box-shadow: 7px 5px 21px rgba(0, 0, 0, 0.2);
+  overflow-y: hidden;
+}
+
+.catalog-card:hover .catalog-card__buttons {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .catalog-card__tag {
@@ -696,6 +703,11 @@ body {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
 }
 
 .catalog-card__buttons .fitting-button,
