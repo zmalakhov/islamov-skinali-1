@@ -299,13 +299,15 @@ body {
   top: 80px;
   left: 0;
   width: 100%;
-  padding: 16px 0;
+  padding: 6px 0;
   background-color: #507fe1;
+  opacity: 0;
 }
 
 .menu_active {
   -webkit-transform: translateY(0);
   transform: translateY(0);
+  opacity: 1;
 }
 
 .menu__nav {
@@ -324,6 +326,12 @@ body {
   font-size: 17px;
   text-transform: uppercase;
   color: #ffffff;
+  display: block;
+  padding: 10px;
+}
+
+.menu__link:hover {
+  background-color: #510bba;
 }
 
 .menu-button {
@@ -346,6 +354,14 @@ body {
   border-left: 1px solid rgba(81, 11, 186, 0.1);
   height: 80px;
   width: 70px;
+}
+
+.menu-button:hover {
+  cursor: pointer;
+}
+
+.menu-button:focus {
+  outline: none;
 }
 
 .menu-button__line {
@@ -379,10 +395,6 @@ body {
 
 @media (max-width: 576px) {
   .logo {
-    display: none;
-  }
-
-  .menu {
     display: none;
   }
 
