@@ -21,3 +21,7 @@ https://zurb.com/playground/twentytwenty
 слайдер slick
 https://kenwheeler.github.io/slick/
 
+===================
+прикрутить маску для телефона
+https://github.com/digitalBush/jquery.maskedinput
+
