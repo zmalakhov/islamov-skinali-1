@@ -25,3 +25,10 @@ https://kenwheeler.github.io/slick/
 прикрутить маску для телефона
 https://github.com/digitalBush/jquery.maskedinput
 
+=========================
+проверка скорости загрузки сайта
+https://developers.google.com/speed/pagespeed/insights/
+
+========================
+оптимизация и сжатие изображений на сайте
+https://optipic.io/ru/
